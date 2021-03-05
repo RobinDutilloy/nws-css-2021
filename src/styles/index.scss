@@ -7,31 +7,27 @@ body {
   background-color: #131313;
   font-size: 18px;
   font-weight: bold;
+  text-align: center;
 }
 
 h1{
-  text-align: center;
   margin: 0;
   color: white;
 }
 
 .header{
-  text-align: center;
   padding: 20px;
   background-color: #232323;
   margin-bottom: 30px;
 }
 
-form, h1{
-  padding: 10px;
-}
+form, h1{padding: 10px}
 
 input{
   border: 0;
 border-radius: 5px;
 padding: 5px;
 margin-right: 10px;
-
 }
 
 button{
@@ -40,44 +36,53 @@ button{
   padding: 5px;
   border-radius: 5px;
   text-transform: uppercase;
-  
 }  
 
-.item-link {
-  cursor: pointer;
-}
+.item-link {cursor: pointer}
 
-.link{
-  margin-bottom: 10px;
-}
+.link{margin-bottom: 10px}
 
-  .item, p{
-  text-align: center;
-  color: white;
-}
+.item, p{color: white}
 
-.item{
-  padding-bottom: 30px;
-}
+.item{padding-bottom: 30px}
 
-img{
-  width: 75%;
-}
+img{width: 75%}
 
-.item__keyword{
-  margin: 5px;
-}
+.item__keyword, .link{margin: 5px}
 
 p, h2{
   margin: 15px;
   line-height: 2rem;
 }
 
-.item__date-created{
-  color: #00a6d2;
-  
-}
+.item__date-created{color: #00a6d2}
 
-@media(min-width: 50px){
+@media(min-width: 1250px){
 
+  form{
+    text-align: right;
+    margin-top:-70px;
+  }
+
+  .link{
+    margin-top:15px;
+    padding: 10px;;
+  }
+
+  .item{margin: 80px 15rem 0 15rem}
+
+  h1{font-size: 45px}
+
+  h2{
+    font-size: 35px;
+    line-height: 3rem
+  }
+
+  p{font-size: 25px}
+
+  img{width: 40%}
+
+  button, input{padding:13px}
+
+  .item__description{margin: 30px}
 }
